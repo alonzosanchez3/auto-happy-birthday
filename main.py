@@ -30,4 +30,6 @@ for record in data_list:
   if record['month'] == month and record['day'] == day:
     send_email(record['name'], record['email'])
 
+#Project finished
+
 
